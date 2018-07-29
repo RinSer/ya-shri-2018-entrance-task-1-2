@@ -5,7 +5,7 @@ import { createFilterControl } from './filter';
 export function initMap(ymaps, containerId) {
   const myMap = new ymaps.Map(containerId, {
     center: [55.76, 37.64],
-    controls: [],
+    controls: ['zoomControl'],
     zoom: 10
   });
   
